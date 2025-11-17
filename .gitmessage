@@ -26,3 +26,6 @@ type(scope): mensaje corto en presente y claro
 git config --global core.editor "code --wait"
 (Uso del VSCODE)
 git config --global core.editor "notepad"
+
+Fleet
+git config --global core.editor "'C:/Users/tu usuario/AppData/Local/Programs/Fleet/fleet.exe' --wait"
