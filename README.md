@@ -164,12 +164,22 @@ npm run test:cov
 - Bcrypt
 - Arquitectura Modular
 - Guards, Decorators y Strategies
+- Prisma
 
 ---
 
+
+## 🗄️ Configuración de la Base de Datos
+
+En el archivo `.env`:
+
+```env
+DATABASE_URL="mysql://root:password@localhost:3306/base_system"
+JWT_SECRET="super_secret_key"
+JWT_EXPIRES="2h"
+````
 # 🌐 Futuras mejoras
 
-- Integración con TypeORM o Prisma
 - Refresh Tokens
 - Auditoría (createdBy, updatedBy)
 - Permisos avanzados (RBAC)
